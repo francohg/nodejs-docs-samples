@@ -18,7 +18,7 @@
 const http = require('http');
 const handleRequest = function (req, res) {
   res.writeHead(200);
-  res.end('Hello Kubernetes!');
+  res.end('hola ku!');
 };
 const www = http.createServer(handleRequest);
 www.listen(parseInt(process.env.PORT) || 8080);
